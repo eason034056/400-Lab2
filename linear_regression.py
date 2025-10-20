@@ -10,7 +10,7 @@
 
 # Set matplotlib backend to make sure it displays from the terminal
 import matplotlib
-matplotlib.use('TkAgg') # This line won't run in github so comment it out before committing
+# matplotlib.use('TkAgg') # This line won't run in github so comment it out before committing
 
 # Read in necessary packages
 import pandas as pd
@@ -67,7 +67,7 @@ def grad(x, y, alpha, beta):
 
 ## MORE OF YOUR CODE HERE
 learning_rate = 0.0001
-tolerance = 1e-6
+tolerance = 1e-8
 max_iterations = 10000
 
 params = np.array([alpha, beta])
