@@ -106,6 +106,6 @@ plt.title('Car Value vs Age with Regression Line')
 plt.xlabel('Age (years)')
 plt.ylabel('Value (thousands USD)')
 plt.legend()
-plt.savefig('car_value_vs_age_regression.png')
+plt.savefig('car_value_vs_age_regression_1.png')
 # plt.show() COMMENT OUT if running pytest
 
